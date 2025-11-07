@@ -15,7 +15,7 @@ Ensure you have Python installed. It is recommended to use `miniconda` or `conda
     Open your terminal or Anaconda Prompt and create a new environment:
 
     ```bash
-    conda create -n chatbot-env python=3.9
+    conda create -n chatbot-env python=3.11
     conda activate chatbot-env
     ```
 
@@ -30,7 +30,7 @@ Ensure you have Python installed. It is recommended to use `miniconda` or `conda
 4.  **Run the Streamlit Application**
 
     ```bash
-    streamlit run streamlit_app.py
+    streamlit run streamlit_app_basic.py
 
     The application will open in your web browser.
 
